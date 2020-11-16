@@ -9,6 +9,7 @@ class LifeCycle extends React.Component {
   componentDidMount () {
     const intervalCounter = setInterval(() => {
       this.setState({ counter: this.state.counter + 1 });
+      
       if (this.state.counter == 10) {
         clearInterval(intervalCounter);
       }

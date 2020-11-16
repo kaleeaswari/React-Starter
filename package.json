@@ -1,5 +1,5 @@
 {
-  "name": "React-Starter",
+  "name": "react-starter",
   "version": "1.0.0",
   "description": "Base app for react",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "kaleeaswari <skaleeas@thoughtworks.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -18,10 +18,6 @@
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.21.0",
-    "react-redux": "^5.0.5",
-    "redux": "^3.6.0",
-    "redux-actions": "^2.0.3",
-    "redux-thunk": "^2.2.0",
     "webpack": "^4.12.0",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
@@ -30,10 +26,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaleeaswari/React-Starter.git"
-  },
+  "repository": "git+https://github.com/kaleeaswari/React-Starter.git",
   "bugs": {
     "url": "https://github.com/kaleeaswari/React-Starter/issues"
   },
